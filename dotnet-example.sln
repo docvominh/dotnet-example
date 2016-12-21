@@ -5,6 +5,10 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dotnet-example", "dotnet-example.csproj", "{1684787A-3810-4679-AB2F-E229BD6ABCD8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "http-request", "http-request\http-request.csproj", "{2B19008F-1874-4820-A607-656775E79D70}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "excel-closedXML", "excel-closedXML\excel-closedXML.csproj", "{E73C27B0-0CBF-4683-A045-E48BFAB71EF1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{1684787A-3810-4679-AB2F-E229BD6ABCD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1684787A-3810-4679-AB2F-E229BD6ABCD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1684787A-3810-4679-AB2F-E229BD6ABCD8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B19008F-1874-4820-A607-656775E79D70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B19008F-1874-4820-A607-656775E79D70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B19008F-1874-4820-A607-656775E79D70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B19008F-1874-4820-A607-656775E79D70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E73C27B0-0CBF-4683-A045-E48BFAB71EF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E73C27B0-0CBF-4683-A045-E48BFAB71EF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E73C27B0-0CBF-4683-A045-E48BFAB71EF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E73C27B0-0CBF-4683-A045-E48BFAB71EF1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
