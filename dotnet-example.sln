@@ -21,6 +21,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DatetimeFormat", "DatetimeF
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mail", "..\mail\mail.csproj", "{8F814B6A-B439-48CA-99E1-9250581614EE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XmlSerializerExample", "..\XmlSerializer\XmlSerializerExample.csproj", "{48C23FBE-8909-4955-A933-F25BFE7B7604}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JsonSerializerExample", "..\JsonSerializerExample\JsonSerializerExample.csproj", "{7FDD7CCE-2E26-45CC-B8D5-E551C9FA2E21}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,8 +67,19 @@ Global
 		{8F814B6A-B439-48CA-99E1-9250581614EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8F814B6A-B439-48CA-99E1-9250581614EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8F814B6A-B439-48CA-99E1-9250581614EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48C23FBE-8909-4955-A933-F25BFE7B7604}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48C23FBE-8909-4955-A933-F25BFE7B7604}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48C23FBE-8909-4955-A933-F25BFE7B7604}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48C23FBE-8909-4955-A933-F25BFE7B7604}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7FDD7CCE-2E26-45CC-B8D5-E551C9FA2E21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FDD7CCE-2E26-45CC-B8D5-E551C9FA2E21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FDD7CCE-2E26-45CC-B8D5-E551C9FA2E21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FDD7CCE-2E26-45CC-B8D5-E551C9FA2E21}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.TransientFaultHandling.6.0.1304.0\lib\portable-net45+win+wp8;packages\EnterpriseLibrary.TransientFaultHandling.Data.6.0.1304.1\lib\NET45
 	EndGlobalSection
 EndGlobal
