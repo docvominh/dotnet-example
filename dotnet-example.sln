@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dotnet-example", "dotnet-example.csproj", "{1684787A-3810-4679-AB2F-E229BD6ABCD8}"
 EndProject
@@ -17,7 +17,17 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "excel-closedXML-findValue",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NUnit", "NUnit\NUnit.csproj", "{EE8F990D-17DE-4412-AC5A-421D494ABDE2}"
 EndProject
+<<<<<<< HEAD
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JsonWork", "JsonWork\JsonWork.csproj", "{735B5996-E993-48EA-BC33-6D62FCA1F0B3}"
+=======
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DatetimeFormat", "DatetimeFormat\DatetimeFormat.csproj", "{820EDC6F-6943-4937-A2B1-3AF3188BD8D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mail", "..\mail\mail.csproj", "{8F814B6A-B439-48CA-99E1-9250581614EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XmlSerializerExample", "..\XmlSerializer\XmlSerializerExample.csproj", "{48C23FBE-8909-4955-A933-F25BFE7B7604}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JsonSerializerExample", "..\JsonSerializerExample\JsonSerializerExample.csproj", "{7FDD7CCE-2E26-45CC-B8D5-E551C9FA2E21}"
+>>>>>>> 725dc3d5eee1cffaa433760a91fde37add2c1fb1
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -53,12 +63,34 @@ Global
 		{EE8F990D-17DE-4412-AC5A-421D494ABDE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EE8F990D-17DE-4412-AC5A-421D494ABDE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EE8F990D-17DE-4412-AC5A-421D494ABDE2}.Release|Any CPU.Build.0 = Release|Any CPU
+<<<<<<< HEAD
 		{735B5996-E993-48EA-BC33-6D62FCA1F0B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{735B5996-E993-48EA-BC33-6D62FCA1F0B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{735B5996-E993-48EA-BC33-6D62FCA1F0B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{735B5996-E993-48EA-BC33-6D62FCA1F0B3}.Release|Any CPU.Build.0 = Release|Any CPU
+=======
+		{820EDC6F-6943-4937-A2B1-3AF3188BD8D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{820EDC6F-6943-4937-A2B1-3AF3188BD8D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{820EDC6F-6943-4937-A2B1-3AF3188BD8D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{820EDC6F-6943-4937-A2B1-3AF3188BD8D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F814B6A-B439-48CA-99E1-9250581614EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F814B6A-B439-48CA-99E1-9250581614EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F814B6A-B439-48CA-99E1-9250581614EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F814B6A-B439-48CA-99E1-9250581614EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48C23FBE-8909-4955-A933-F25BFE7B7604}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48C23FBE-8909-4955-A933-F25BFE7B7604}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48C23FBE-8909-4955-A933-F25BFE7B7604}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48C23FBE-8909-4955-A933-F25BFE7B7604}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7FDD7CCE-2E26-45CC-B8D5-E551C9FA2E21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FDD7CCE-2E26-45CC-B8D5-E551C9FA2E21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FDD7CCE-2E26-45CC-B8D5-E551C9FA2E21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FDD7CCE-2E26-45CC-B8D5-E551C9FA2E21}.Release|Any CPU.Build.0 = Release|Any CPU
+>>>>>>> 725dc3d5eee1cffaa433760a91fde37add2c1fb1
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.TransientFaultHandling.6.0.1304.0\lib\portable-net45+win+wp8;packages\EnterpriseLibrary.TransientFaultHandling.Data.6.0.1304.1\lib\NET45
 	EndGlobalSection
 EndGlobal
