@@ -17,7 +17,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "excel-closedXML-findValue",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NUnit", "NUnit\NUnit.csproj", "{EE8F990D-17DE-4412-AC5A-421D494ABDE2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JsonWork", "..\JsonWork\JsonWork.csproj", "{735B5996-E993-48EA-BC33-6D62FCA1F0B3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JsonWork", "JsonWork\JsonWork.csproj", "{735B5996-E993-48EA-BC33-6D62FCA1F0B3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
