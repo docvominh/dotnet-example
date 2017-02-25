@@ -33,7 +33,7 @@ namespace excel_closedXML
 
             // Open excel file
             XLWorkbook fileOpen = new XLWorkbook(@"D:\closeXML-example.xlsx");
-            IXLWorksheet openSheet = file.Worksheet("First Sheet");
+            IXLWorksheet openSheet = fileOpen.Worksheet("First Sheet");
 
             Console.WriteLine(string.Format("Total used row (Contain blank row) = {0}", openSheet.LastRowUsed().RowNumber()));
             Console.WriteLine(string.Format("Total used row  = {0}", openSheet.RowsUsed().Count()));

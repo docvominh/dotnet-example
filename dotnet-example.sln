@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "excel-closedXML-findValue",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NUnit", "NUnit\NUnit.csproj", "{EE8F990D-17DE-4412-AC5A-421D494ABDE2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JsonWork", "..\JsonWork\JsonWork.csproj", "{735B5996-E993-48EA-BC33-6D62FCA1F0B3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{EE8F990D-17DE-4412-AC5A-421D494ABDE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EE8F990D-17DE-4412-AC5A-421D494ABDE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EE8F990D-17DE-4412-AC5A-421D494ABDE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{735B5996-E993-48EA-BC33-6D62FCA1F0B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{735B5996-E993-48EA-BC33-6D62FCA1F0B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{735B5996-E993-48EA-BC33-6D62FCA1F0B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{735B5996-E993-48EA-BC33-6D62FCA1F0B3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
